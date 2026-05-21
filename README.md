@@ -16,6 +16,13 @@ Sistemin saha koşullarında, karmaşık arka planlar altındaki bitki türü ta
 | :---: | :---: |
 | ![Bitki Testi Girdisi](outputs/test_resmi.jpg) | ![Bitki Türü Tahmin Çıktısı](outputs/inference_output.jpg) |
 
+###  Makro / Yakın Çekim Tek Yaprak Testi
+Sistemin sadece geniş açılı saha fotoğraflarında değil, tek bir yaprağa odaklanılan yakın çekim (makro) senaryolarındaki performansı da aşağıda test edilmiştir:
+
+| Test Senaryosu (Tek Yaprak - Girdi) | Test Sonucu (Tek Yaprak - Tahmin) |
+| :---: | :---: |
+| ![Tek Yaprak Girdi](outputs/tek_yaprak_ham.jpg) | ![Tek Yaprak Tahmin](outputs/tek_yaprak_tahmin.jpg) |
+
 > **Not:** Model, yaprak damar ve form yapılarını analiz ederek yüksek güven oranıyla (`conf=0.25+`) bitki etiketlemesini gerçekleştirmektedir.
 
 ---
